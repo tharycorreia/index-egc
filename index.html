@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>EGC - Departamento de Engenharia do Conhecimento</title>
+
+    <style type="text/css"  media="screen">
+        .body {
+            background-color: #F0F8FF;
+            width: 100%;
+            height: 100%;
+            margin: 0;
+        }
+        .box-title {
+            margin-top: 5%;
+        }
+        .title {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+            color: #304591;
+            width: 60%;
+            text-align: center;
+            margin-left: 20%;
+        }
+        .title-1 {
+            font-size: 300%;
+            font-weight: 900;
+            margin-bottom: 5%;
+        }
+        @media only screen and (max-width: 700px) {
+            .title-1 {
+                font-size: 200%;
+            }
+        }
+        @media only screen and (max-width: 600px) {
+            .title-1 {
+                font-size: 150%;
+            }
+        }
+        .box-card {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+        }
+        .card {
+            width: 30%;
+            height: 30%;
+            background-color: #1f8ccc;
+            margin: 1%;
+            position: relative;
+            border-radius: 15%;
+            background: #1f8ccc; 
+            background: -webkit-linear-gradient(to bottom, #1f8ccc, #352511);
+            background: linear-gradient(to bottom, #1f8ccc, #352511); 
+        }
+        .img {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            margin-top: 5%;
+        }
+        .title-card {
+            color: #FFF;
+            font-size: xx-large;
+            text-align: center;
+            padding: 0 2%;
+            font-weight: 500;
+            margin: 5% 0;
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+        }
+        @media only screen and (max-width: 700px) {
+            .title-card {
+                font-size: x-large;
+            }
+        }
+        .footer-img {
+            display: inline-block;
+            margin-top: auto;
+            margin-bottom: auto;
+        }
+        .footer {
+            position: absolute;
+            bottom: 3%;
+            left: 1.5%;
+        }
+        @media only screen and (max-height: 650px) {
+            .footer {
+                visibility: hidden;
+            }
+        }
+        .ufsc {
+            margin-bottom: 1%;
+        }
+        .egc {
+            margin-left: 3%;
+        }
+        .img-egc {
+            right: 0;
+            position: absolute;
+            bottom: 0;
+            opacity: 0.2;
+        }
+        a:link { 
+            text-decoration:none; 
+        } 
+    </style>
+</head>
+<body class="body">
+    <div class="box-title col-6 col-s-12 col-sm-12">
+        <div class="title title-1">O portal da Engenharia do Conhecimento da UFSC está sendo remodelado.</div>
+        <h2 class="title">Enquanto isso não acontece, você pode acessar as informações pelos seguintes links:</h2>
+    </div>
+    <img src="egc (copy).png" class="img-egc" width="35%">
+
+    <div class="box-card">
+        <a class="card" href="https://ppgegc.paginas.ufsc.br">
+            <div>
+                <img src="img2.jpeg" width="60%" class="img">
+                <p class="title-card">Programa de Pós-Graduação em Engenharia do Conhecimento</p>
+            </div>
+        </a>
+        <a class="card" href="https://dptegc.paginas.ufsc.br/">
+            <div>
+                <img src="img.jpg" width="60%" class="img">
+                <p class="title-card">Departamento de Engenharia do Conhecimento</p>
+            </div>
+        </a>
+    </div>
+</body>
+<footer class="footer">
+    <img src="ufsc.png" width="5%" class="footer-img">
+    <img src="ufsc-titulo.svg.png" width="13%" class="footer-img ufsc">
+    <img src="egc.png" width="12%" class="footer-img egc">
+</footer>
+</html>
+
